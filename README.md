@@ -1,4 +1,4 @@
-# SORTING-ALGORIRHM
+# SORTING-ALGORIRHMS
 
   Essentially, the use of a sorting algorithm is to arrange a given array or list of elements into 
 a certain order, Ascending or Descending as preferred. This codebase consists of the implementation of various sorting algorithms such as Bubble sort, Merge sort, Insertion sort etc.
