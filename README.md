@@ -69,3 +69,52 @@ Characteristics:
 -Sorting doesn't occcur ib place, hence it requires extra space 
 -It is stable
 -It is quite efficient for large datasets
+
+5.Quick Sort 
+Quick sort also uses divide-and-conquer strategy, just like in Merge Sort. It selects an element as a pivot and partitions the array around it. 
+It moves all the elements less than pivot to its left and all the elements greater than it to the right, then recursively sorts the subarrays.
+
+Time Complexity: 
+-Worst-case:  O(n²) (rare, can be mitigated with good pivot selection)
+-Average-case: O(n log n)
+-Best-case: O(n log n)
+
+Space complexity: 
+O(log n)
+
+Characteristics: 
+- It is an in-place  so it requires less space
+- It is r3lativelty not stable
+- Very efficient in practice, especially with good pivot selection
+
+6. Counting Sort
+Counting Sort is an algorithm suitable for sorting integers, it doesn't make use of comparison to sort integers. It counts the occurrences of each value, uses this information to determine the position of each value in the output array, and assembles the sorted array. 
+Time Complexity:
+Worst-case: O(n + k) (where k is the range of the input), Essentially, still O(n)
+
+Space complexity: 
+O(n)
+
+Characteristics:
+- It is a not in-place algprithm so it requires extra space
+- It is relatively Stable
+-Efficient for small range of integers, not suitable for large ranges or non-integer data
+
+7, Bucket Sort 
+Bucket Sort distributes elements into several buckets, sorts each bucket individually (using another sorting algorithm or recursively), and then concatenates the sorted buckets.
+
+Time Complexity: 
+- Worst-case: O(n²) (rare, depends on the distribution of elements)
+- Average-case: O(n + k); k= range of input, so essentially it's O(n)
+- Best-case: O(n + k)
+
+Space Complexity:
+O(n + k)
+
+Characteristics: 
+- It is a not in-place algorithm so it requires extra space.
+-It is relatively Stable
+- Efficient for uniformly distributed data
+
+  Conclusion
+Choosing the right sorting algorithm depends on the specific requirements of your application, including the size of the dataset, the range of the data, and whether the data is already partially sorted. Understanding these can help you make informed decisions to optimize the performance of your code.
