@@ -116,5 +116,7 @@ Characteristics:
 -It is relatively Stable
 - Efficient for uniformly distributed data
 
-  Conclusion
+
+CONCLUSION
+
 Choosing the right sorting algorithm depends on the specific requirements of your application, including the size of the dataset, the range of the data, and whether the data is already partially sorted. Understanding these can help you make informed decisions to optimize the performance of your code.
